@@ -8,7 +8,6 @@ $(function()  {
         $(this).addClass("active");
         var panelToShow = $(this).attr("rel");
 
-
         //hide current panel
         panel.find(".panel.active").slideUp(300, showNextPanel);
 
@@ -19,9 +18,6 @@ $(function()  {
                 $(this).addClass("active");
             });
         }
-
         //show new panel
-
     });
-
 });
